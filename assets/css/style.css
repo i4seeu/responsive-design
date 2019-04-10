@@ -266,3 +266,60 @@ main{
 	color: gray;
 	font-size: 12px;
 }
+
+.latest-fundings {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fundings {
+    flex: 0 1 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+}
+.funding-top{
+
+	flex: 0 1 33.33%;
+	background-image: linear-gradient(rgb(255, 67, 34)40% ,rgba(255,68,34,.08)40% );
+
+}
+.funding-center {
+    flex: 0 1 33.33%;
+    border-bottom: 1px solid rgba(255, 67, 34, 0.404);
+    padding: 10px;
+    background-color: rgba(255, 67, 34, 0.027);
+}
+.funding-bottom {
+	flex: 0 1 33.33%;
+	padding: 10px;
+	background-color: rgba(255, 67, 34, 0.027);
+}
+.funding-img{
+	height: 75px;
+    width: 75px;
+    float: left;
+    margin: 10px;
+}
+.funding-top h2 {
+    margin: 12px 15px;
+    font-size: 18px;
+}
+.funding-top h2:first-of-type{
+	color:#fff;
+}
+.funding-top h2:last-of-type {
+    margin-bottom: 0px;
+}
+.funding-top small {
+    color: gray;
+    font-size: 12px;
+}
+.funding-center h4 {
+    font-size: 15px;
+    font-weight: 100;
+}
+.funding-bottom small {
+    font-size: 14px;
+}
