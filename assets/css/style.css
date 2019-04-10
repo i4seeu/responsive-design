@@ -461,3 +461,57 @@ main{
     border-bottom: 1px solid rgba(128, 128, 128, 0.144);
     padding: 10px 0;
 }
+.latest-content{
+	display: flex;
+	height: 550px;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+.deal{
+	flex: 0 1 25%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+strike{
+	color: gray;
+}
+.deal1{
+	background-image: url("../images/deal1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.deal2{
+	background-image: url("../images/deal2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.deal3{
+	background-image: url("../images/deal3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.deal4{
+	background-image: url("../images/latest4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.deal5{
+	background-image: url("../images/latest5.png.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.deal6{
+	background-image: url("../images/latest6.png.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.deal7{
+	background-image: url("../images/latest7.png.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.deal8{
+	background-image: url("../images/latest8.png.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
