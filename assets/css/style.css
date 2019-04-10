@@ -323,3 +323,141 @@ main{
 .funding-bottom small {
     font-size: 14px;
 }
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.topic {
+    flex: 0 1 33.33%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.topic .title {
+    margin: 10px 0;
+}
+.topic-top {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding-bottom: 10px;
+}
+.topic-top > * {
+    margin: 2px 10px;
+}
+.topic-top small {
+    color: rgb(173, 173, 173);
+    font-size: 11px;
+}
+.topic1{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topic2{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic3{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic4{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic5{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic6{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic7{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic8{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.topic9{
+	background-image: linear-gradient(rgba(172, 172, 172, 0.288), rgb(0, 0, 0)), url(../images/topic9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topic-center {
+    display: flex;
+	flex-direction: row;
+	height: 100px;
+    background-color: rgba(255, 67, 34, 0.103);
+    padding-left: 10px;
+    color: rgb(250, 60, 26);
+}
+.topic-center-content{
+	flex: 0 1 75%;
+	padding: 18px 10px 0 0;
+
+}
+.thumbnail{
+	width:25%
+}
+.thumb1 , .thumb7 {
+    background: url(../images/thumb1.jpg) 50% 50% no-repeat;
+    background-size: 150%;
+}
+.thumb2 {
+    background: url(../images/thumb2.jpg) 50% 50% no-repeat;
+    background-size: 150%;
+}
+.thumb3 {
+    background: url(../images/thumb3.png) 50% 50% no-repeat;
+    background-size: 150%;
+}
+.thumb4 {
+    background: url(../images/thumb4.png) 50% 50% no-repeat;
+    background-size: 150%;
+}
+.thumb5 {
+    background: url(../images/thumb5.jpg) 50% 50% no-repeat;
+    background-size: 150%;
+}
+.thumb6 {
+    background: url(../images/thumb6.png) 50% 50% no-repeat;
+    background-size: 150%;
+}
+.thumb8{
+    background: url(../images/thumb8.jpg) 50% 50% no-repeat;
+    background-size: 150%;
+}
+.thumb9 {
+    background: url(../images/thumb9.jpg) 50% 50% no-repeat;
+    background-size: 150%;
+}
+.topic-bottom ul {
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 100;
+	color: rgb(83, 83, 83);
+	list-style-type: disc  ;
+	display: flex;
+	flex-direction: column;
+}
+.topic-bottom li {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.144);
+    padding: 10px 0;
+}
