@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
-
+/*header*/
 .nav-tnw {
 	display: flex;
 	background: #131313;
@@ -211,6 +211,7 @@ a {
 .title:hover {
 	color: #000;
 }
+/**MAIN **/
 main {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -324,6 +325,8 @@ main {
 .funding-bottom small {
 	font-size: 14px;
 }
+
+/***Topic*/
 
 .topics {
 	display: flex;
@@ -525,6 +528,7 @@ strike {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+/**	Footer */
 footer {
 	display: flex;
 	flex-direction: column;
@@ -568,3 +572,44 @@ footer {
 	font-size: 14px;
 	background-color: rgb(14, 14, 14);
 }
+
+@media screen and (max-width: 1112px) {
+	.menu-list{
+		width: 80%;
+	}
+	.right{
+		width: 20%;
+	}
+	.right-menu{
+		display:flex;
+		justify-content: flex-end;
+		
+	}
+	.right-menu li + li{
+		display:none ;
+	}
+
+}
+@media screen and(max-width:1112px) and (min-width:1000px){
+	.menu-list{
+		width: 80%;
+	}
+	.right{
+		width: 20%;
+	}
+	.right-menu{
+		display:flex;
+		justify-content: flex-end;
+		
+	}
+	.get-ticket, .menu-img {
+		display:none ;
+	}
+
+}
+
+@media screen and(max-width:766px) {
+	
+
+}
+  
