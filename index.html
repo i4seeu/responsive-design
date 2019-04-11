@@ -22,6 +22,7 @@
 				</ul>
 			</nav>
 			<div class="menu">
+				<div class="nav-icon"></div>
 				<ul class="menu-list">
 					<li><a class="txt-gray" href="">LATEST</a></li>
 					<li><a class="txt-gray" href="">HARD FORK</a></li>
@@ -33,23 +34,29 @@
 				</ul>
 				<div class="right">
 					<ul class="right-menu">
-						<li><img src="assets/images/search.png" alt="" /></li>
-						<li>
+						<li class="search-cont">
+							<img src="assets/images/search.png" alt="" />
+						</li>
+						<li class="logo-cont">
 							<img
 								class="menu-img"
 								src="assets/images/conf-logo.svg"
 								alt=""
 							/>
 						</li>
-						<li><a class="txt-gray start" href="">STARTS IN</a></li>
-						<li>
+						<li class="start-cont">
+							<a class="txt-gray start" href="">STARTS IN</a>
+						</li>
+						<li class="timer-cont">
 							<img
 								class="menu-img"
 								src="assets/images/timer.png"
 								alt=""
 							/>
 						</li>
-						<li><a href="" class="get-ticket">GET TICKETS</a></li>
+						<li class="ticket-cont">
+							<a href="" class="get-ticket">GET TICKETS</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -93,67 +100,83 @@
 			<div class="latest-news">
 				<div class="latest-news-div">
 					<div class="div-img image1"></div>
-					<h4>
-						Police bust 2 goons linked to $3B OneCoin cryptocurrency
-						pyramid scheme
-					</h4>
-					<small>Matthew Beedham . 25 minutes ago</small>
+					<div class="news-descr">
+						<h4>
+							Police bust 2 goons linked to $3B OneCoin
+							cryptocurrency pyramid scheme
+						</h4>
+						<small>Matthew Beedham . 25 minutes ago</small>
+					</div>
 				</div>
 				<div class="latest-news-div">
 					<div class="div-img image2"></div>
-					<h4>
-						Scientists discover evidence of giant planet 13 times
-						more massive than Jupiter
-					</h4>
-					<small>Tristan Greene . 12 hours ago</small>
+					<div class="news-descr">
+						<h4>
+							Scientists discover evidence of giant planet 13
+							times more massive than Jupiter
+						</h4>
+						<small>Tristan Greene . 12 hours ago</small>
+					</div>
 				</div>
 				<div class="latest-news-div">
 					<div class="div-img image3"></div>
-					<h4>
-						Millionaire offers thousands for help planning real-life
-						battle royale game -- this should go well
-					</h4>
-					<small>Rachel Kaser . 12 hours ago</small>
+					<div class="news-descr">
+						<h4>
+							Millionaire offers thousands for help planning
+							real-life battle royale game -- this should go well
+						</h4>
+						<small>Rachel Kaser . 12 hours ago</small>
+					</div>
 				</div>
 				<div class="latest-news-div">
 					<div class="div-img image4"></div>
-					<h4>
-						Physicists developed an experimental quantum device to
-						predict the future
-					</h4>
-					<small> Tristan Greene . 13 hours ago</small>
+					<div class="news-descr">
+						<h4>
+							Physicists developed an experimental quantum device
+							to predict the future
+						</h4>
+						<small> Tristan Greene . 13 hours ago</small>
+					</div>
 				</div>
 
 				<!-- second row -->
 
 				<div class="latest-news-div">
 					<div class="div-img image5"></div>
-					<h4>
-						Qualcomm’s latest Snapdragon 730G chip is designed for
-						cheaper ‘gaming phones'
-					</h4>
-					<small>Ivan Mehta . 16 hours ago</small>
+					<div class="news-descr">
+						<h4>
+							Qualcomm’s latest Snapdragon 730G chip is designed
+							for cheaper ‘gaming phones'
+						</h4>
+						<small>Ivan Mehta . 16 hours ago</small>
+					</div>
 				</div>
 				<div class="latest-news-div">
 					<div class="div-img image6"></div>
-					<h4>
-						Slack now lets you preview documents within the app (and
-						plays nice with Office 365!)
-					</h4>
-					<small>Matthew Hughes . 17 hours ago</small>
+					<div class="news-descr">
+						<h4>
+							Slack now lets you preview documents within the app
+							(and plays nice with Office 365!)
+						</h4>
+						<small>Matthew Hughes . 17 hours ago</small>
+					</div>
 				</div>
 				<div class="latest-news-div">
 					<div class="div-img image7"></div>
-					<h4>
-						KPMG survey: 67% of corporates are not using blockchain
-						technology
-					</h4>
-					<small>Yessi Bello Perez . 17 hours ago</small>
+					<div class="news-descr">
+						<h4>
+							KPMG survey: 67% of corporates are not using
+							blockchain technology
+						</h4>
+						<small>Yessi Bello Perez . 17 hours ago</small>
+					</div>
 				</div>
 				<div class="latest-news-div">
 					<div class="div-img image8"></div>
-					<h4>Vote for your favorite Chivas Venture finalist</h4>
-					<small>Ailsa Sherrington . 17 hours ago</small>
+					<div class="news-descr">
+						<h4>Vote for your favorite Chivas Venture finalist</h4>
+						<small>Ailsa Sherrington . 17 hours ago</small>
+					</div>
 				</div>
 			</div>
 			<!--latest funding-->
@@ -224,7 +247,7 @@
 						>
 					</div>
 				</div>
-				<div class="fundings">
+				<div class="fundings fundings4">
 					<div class="funding-top">
 						<img
 							class="funding-img"
@@ -661,52 +684,74 @@
 				<div class="latest-content">
 					<div class="deal">
 						<div class="div-img deal1"></div>
-						<h4>
-							Complete Microsoft Azure Certification Prep Bundle
-							2019
-						</h4>
-						<small> <strike>$387</strike> $19</small>
+						<div class="deal-descr">
+							<h4>
+								Complete Microsoft Azure Certification Prep
+								Bundle 2019
+							</h4>
+							<small> <span>$387</span> $19</small>
+						</div>
 					</div>
 					<div class="deal">
 						<div class="div-img deal2"></div>
-						<h4>
-							Postable Instagram Automation Charlie Plan: Lifetime
-							Subscription
-						</h4>
-						<small> <strike>$325</strike> $29 </small>
+						<div class="deal-descr">
+							<h4>
+								Postable Instagram Automation Charlie Plan:
+								Lifetime Subscription
+							</h4>
+							<small> <span>$325</span> $29 </small>
+						</div>
 					</div>
 					<div class="deal">
 						<div class="div-img deal3"></div>
-						<h4>The Complete Cisco CCNA Collaboration Bundle</h4>
-						<small> <strike>$598</strike> $19 </small>
+						<div class="deal-descr">
+							<h4>
+								The Complete Cisco CCNA Collaboration Bundle
+							</h4>
+							<small> <span>$598</span> $19 </small>
+						</div>
 					</div>
 					<div class="deal">
 						<div class="div-img deal4"></div>
-						<h4>FastestVPN: Lifetime Subscription (5 Devices)</h4>
-						<small> <strike>$600</strike> $24.99 </small>
+						<div class="deal-descr">
+							<h4>
+								FastestVPN: Lifetime Subscription (5 Devices)
+							</h4>
+							<small> <span>$600</span> $24.99 </small>
+						</div>
 					</div>
 					<div class="deal">
 						<div class="div-img deal5"></div>
-						<h4>The Complete Robotics eBook Bundle</h4>
-						<small> <strike>$199.95</strike> $15 </small>
+						<div class="deal-descr">
+							<h4>The Complete Robotics eBook Bundle</h4>
+							<small> <span>$199.95</span> $15 </small>
+						</div>
 					</div>
 					<div class="deal">
 						<div class="div-img deal6"></div>
-						<h4>The Complete Machine Learning A to Z Bundle</h4>
-						<small> <strike>$891</strike> $35 </small>
+						<div class="deal-descr">
+							<h4>The Complete Machine Learning A to Z Bundle</h4>
+							<small> <span>$891</span> $35 </small>
+						</div>
 					</div>
 					<div class="deal">
 						<div class="div-img deal7"></div>
-						<h4>The Social Media Marketing Master Class Bundle</h4>
-						<small> <strike>$969</strike> $29 </small>
+						<div class="deal-descr">
+							<h4>
+								The Social Media Marketing Master Class Bundle
+							</h4>
+							<small> <span>$969</span> $29 </small>
+						</div>
 					</div>
 					<div class="deal">
 						<div class="div-img deal8"></div>
-						<h4>
-							Excel Data Analyst Certification School: Lifetime
-							Membership
-						</h4>
-						<small> <strike>$1999 </strike> $49 </small>
+						<div class="deal-descr">
+							<h4>
+								Excel Data Analyst Certification School:
+								Lifetime Membership
+							</h4>
+							<small> <span>$1999 </span> $49 </small>
+						</div>
 					</div>
 				</div>
 			</div>
